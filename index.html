@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Buat Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="jasa.jpg" alt="Logo" class="logo">
+    <h1>Jasa Buat Web</h1>
+    <p>Bahasa Pemograman HTML, CSS</p>
+</header>
+
+<section class="tentang">
+    <h2>Tentang Saya</h2>
+    <div class="tentang-box">
+        <img src="vinland.jpg" alt="Foto Sedang Ngoding" class="foto-profil">
+        <div> 
+            <h3>Halo Saya Raffasya</h3> 
+            <p id="typing"></p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Layanan Kami</h2>
+    <div class="layanan">
+        <div class="card">
+            <h3>Website Sekolah</h3>
+            <p>Mulai dari 70rb</p>
+        </div>
+        <div class="card">
+            <h3>Website Perusahaan</h3>
+            <p>Mulai dari 100rb</p>
+        </div>
+        <div class="card">
+            <h3>Website Portofolio</h3>
+            <p>Mulai dari 100rb</p>
+        </div>
+    </div>
+</section>
+
+<section class="portofolio">
+    <h2>Hasil Kerja Saya</h2>
+    <div class="galeri">
+        <img src="hasil1.jpg" alt="Hasil Web1" onclick="bukaGambar(this.src)">
+        <img src="hasil2.jpg" alt="Hasil Web2" onclick="bukaGambar(this.src)">
+    </div>
+</section>
+
+<section id="kontak">
+    <h2>Hubungi Saya</h2>
+    <a href="https://wa.me/6285161983346" class="btn" id="btn-wa">Chat WhatsApp</a>
+</section>
+
+<footer>
+    <p>© 2026 Web ini Dibuat oleh Raffasya</p>
+</footer>
+
+<div id="popup" onclick="tutupPopup()">
+    <img id="popup-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
